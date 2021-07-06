@@ -1,25 +1,16 @@
-def get_day_name(day)
-  day_name = ""
-
-    case day
-    when "mon"
-        day_name = "Monday"
-    when "tue"
-        day_name = "Tuesday"
-    when "wed"
-        day_name = "Wednesday"
-    when "thu"
-        day_name = "Thursday"
-    when "fri"
-        day_name = "Friday"
-    when "sat"
-        day_name = "Saturday"
-    when "sun"
-        day_name = "Sunday"
-    else
-        day_name = "Invalid"
-    end
-
-    return day_name
-end
-puts get_day_name("mon")
+print "Enter your day: "   
+day = gets.chomp   
+case day   
+when "Tuesday"   
+  puts 'Wear Red or Orange'   
+when "Wednesday"   
+  puts 'Wear Green'   
+when "Thursday"   
+  puts 'Wear Yellow'   
+ when "Friday"   
+  puts 'Wear White'   
+ when "Saturday"   
+  puts 'Wear Black'   
+else   
+  puts "Wear Any color"   
+end   
